@@ -16,6 +16,10 @@ the LLM itself decides when a tool is needed and with what arguments.
 - **UI**: [Gradio](https://www.gradio.app/) — each answer shows the tool
   calls the agent made along the way.
 
+New to agents/tool-use? [`docs/HOW_IT_WORKS.md`](docs/HOW_IT_WORKS.md) (in
+Spanish) walks through the agent loop step by step, including 2 real bugs
+found while building it and how they were fixed.
+
 ## Local setup
 
 ```bash
